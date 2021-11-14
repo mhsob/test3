@@ -2,6 +2,9 @@ function motor_vorwaerts () {
     servos.P0.run(50)
     pins.servoWritePin(AnalogPin.P1, 90)
 }
+input.onButtonPressed(Button.A, function () {
+	
+})
 function motor_drehe_rechts () {
     servos.P3.run(50)
 }
