@@ -10,7 +10,5 @@ basic.forever(function () {
         motor_drehe_rechts()
     } else {
         motor_vorwaerts()
-        motors.dualMotorPower(Motor.A, 26)
-        motors.motorCommand(MotorCommand.Coast)
     }
 })
